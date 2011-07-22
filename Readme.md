@@ -1,6 +1,6 @@
 # node-rapleaf
 
-Simple [Rapleaf](www.rapleaf.com) API client for node.js. To learn more about Rapleaf API check the official [documentation](https://www.rapleaf.com/developers/api_docs/personalization/direct).
+Simple [Rapleaf](http://www.rapleaf.com) API client for node.js. To learn more about Rapleaf API check the official [documentation](https://www.rapleaf.com/developers/api_docs/personalization/direct).
 
 ## How to Install
 
