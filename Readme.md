@@ -13,7 +13,7 @@ var RapLeafApi = require('node-rapleaf');
 
 var client = new RapLeafApi('<your key goes here>');
 
-rap.query_by_email('<some email>', function(json_data) {
+client.query_by_email('<some email>', function(json_data) {
   console.log(json_data);
 });
 ```
