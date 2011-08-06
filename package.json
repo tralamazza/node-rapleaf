@@ -2,7 +2,7 @@
   "name" : "node-rapleaf",
   "description" : "Rapleaf API client for node.js",
   "keywords" : [ "rapleaf", "api" ],
-  "version" : "0.0.2",
+  "version" : "0.0.3",
   "author" : "Daniel Tralamazza <tralamazza@gmail.com>",
   "repository" : { "type" : "git", "url" : "git://github.com/tralamazza/node-rapleaf.git" },
   "main" : "index",
