@@ -6,7 +6,7 @@ var email = process.argv[3];
 
 var client = new RapleafApi(key);
 
-client.query_by_email(email, function(data, err) {
+client.query_by_email(email, function(err, data) {
   console.log('direct query test');
   if (err !== undefined)
     console.log('rapleaf error: ' + err);
@@ -16,7 +16,7 @@ client.query_by_email(email, function(data, err) {
     console.log('request error: ' + err);
 });
 
-client.bulk_by_email([email, email], function(data, err) {
+client.bulk_by_email([email, email], function(err, data) {
   console.log('bulk test');
   if (err !== undefined)
     console.log('rapleaf error: ' + err);
